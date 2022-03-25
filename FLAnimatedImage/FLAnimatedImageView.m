@@ -109,7 +109,7 @@
 //                 // See more here: https://github.com/Flipboard/FLAnimatedImage/issues/100
 //                 super.image = animatedImage.posterImage;
 //                 // Clear out the image.
-//                 super.image = nil;
+                super.image = nil;
 //             }
             // Ensure disabled highlighting; it's not supported (see `-setHighlighted:`).
             super.highlighted = NO;
